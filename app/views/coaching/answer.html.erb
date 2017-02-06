@@ -1,0 +1,13 @@
+<h2>Your question</h2>
+<div class="col-xs-12">
+  <blockquote>
+    <p><%= @query %></p>
+    <footer>You</footer>
+  </blockquote>
+
+  <blockquote>
+    <p><%= @answer %></p>
+    <footer>Coach</footer>
+  </blockquote>
+  <%= link_to "add new question", ask_path, class: 'btn btn-primary' %>
+</div>
